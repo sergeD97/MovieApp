@@ -16,6 +16,7 @@
         android:layout_marginTop="6dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/trailer_desc"
         app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
 
     <TextView
@@ -33,6 +34,7 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
+
         android:layout_height="1dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="50dp"
